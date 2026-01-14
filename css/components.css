@@ -34,8 +34,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f0e6dc;
-    color: #d35400;
+    background-color: #E0E0E0;
+    color: #3E2723;
 }
 
 /* Footer */
@@ -66,13 +66,13 @@ footer h4 {
 }
 
 .contact-info a {
-    color: #ff9a56;
+    color: #008B8B;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .contact-info a:hover {
-    color: #ff6b6b;
+    color: #20B2AA;
     text-decoration: underline;
 }
 

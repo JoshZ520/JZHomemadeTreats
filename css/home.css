@@ -2,7 +2,7 @@
 
 /* Carousel */
 .carousel {
-    background: linear-gradient(135deg, #ff9a56 0%, #ff6b6b 100%);
+    background: linear-gradient(135deg, #3E2723 0%, #4E342E 100%);
     color: white;
     text-align: center;
     padding: 3rem 2rem;
@@ -61,7 +61,7 @@
 
 .product-categories h2 {
     text-align: center;
-    color: #d35400;
+    color: #3E2723;
     font-size: 2rem;
     margin-bottom: 2.5rem;
 }
@@ -105,7 +105,7 @@
 }
 
 .category-card:hover .category-overlay {
-    background: linear-gradient(to top, rgba(211, 84, 0, 0.9), rgba(211, 84, 0, 0.6));
+    background: linear-gradient(to top, rgba(62, 39, 35, 0.9), rgba(62, 39, 35, 0.6));
 }
 
 .category-overlay h3 {
@@ -128,7 +128,7 @@
 /* Featured Products specific */
 .featured-products h3 {
     text-align: center;
-    color: #c0392b;
+    color: var(--text-color);
     font-size: 2rem;
     margin-bottom: 2.5rem;
 }
@@ -195,7 +195,7 @@
 
 .featured-price {
     font-size: 2rem;
-    color: #d35400;
+    color: #008B8B;
     font-weight: bold;
     margin-bottom: 1.5rem;
 }
@@ -222,18 +222,18 @@
 }
 
 .dot.active {
-    background-color: #d35400;
+    background-color: #008B8B;
     transform: scale(1.3);
 }
 
 /* Promo Banner */
 .promo-banner {
-    background: linear-gradient(135deg, #d35400 0%, #e67e22 100%);
+    background: linear-gradient(135deg, #3E2723 0%, #4E342E 100%);
     color: white;
     padding: 3rem 2rem;
     margin-bottom: 3rem;
     border-radius: 8px;
-    box-shadow: 0 4px 15px rgba(211, 84, 0, 0.3);
+    box-shadow: 0 4px 15px rgba(62, 39, 35, 0.3);
     position: relative;
     overflow: hidden;
 }
