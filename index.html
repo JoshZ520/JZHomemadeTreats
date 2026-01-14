@@ -4,10 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Josh Z's Homemade Treats </title>
+    
+    <!-- Normalize CSS - Browser reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+    <!-- Your CSS files - in order of specificity -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/home.css">
+
 </head>
 <body>
+    <header id="home_page">
+         <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About Us</a></li>
+            <li><a href="products.html"> Products </a></li>
+            <li><a> Login </a></li>
+            <li><a href="checkout.html"> Cart </a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        
+        <section class="carousel">
+            <button class="carousel-btn prev" aria-label="Previous image">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <img src="https://placehold.co/800x400" alt="Featured homemade treats">
+            
+            <button class="carousel-btn next" aria-label="Next image">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </section>
+
+        <section class="product-categories">
+            <h2>What We Make</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://placehold.co/400x300?text=Pretzels" alt="Chocolate covered pretzels">
+                    <div class="category-overlay">
+                        <h3>White Choc Pretzels</h3>
+                        <p>Delicious white chocolate covered pretzels</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://placehold.co/400x300?text=Popcorn" alt="Chocolate covered popcorn">
+                    <div class="category-overlay">
+                        <h3>White Choc Popcorn</h3>
+                        <p>Sweet white chocolate drizzled popcorn</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://placehold.co/400x300?text=Pretzels" alt="Chocolate covered pretzels">
+                    <div class="category-overlay">
+                        <h3>Milk Choc Pretzels</h3>
+                        <p>Classic milk chocolate covered pretzels</p>
+                    </div>
+                </div>
+                <div class="category-card">
+                    <img src="https://placehold.co/400x300?text=Popcorn" alt="Chocolate covered popcorn">
+                    <div class="category-overlay">
+                        <h3>Milk Choc Popcorn</h3>
+                        <p>Rich milk chocolate drizzled popcorn</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h3>Featured Products</h3>
+            
+            <div class="featured-carousel">
+                <!-- Featured Item 1 -->
+                <div class="featured-item active">
+                    <div class="featured-image">
+                        <img src="https://placehold.co/500x400?text=Party+Pack" alt="Party Pack">
+                    </div>
+                    <div class="featured-content">
+                        <h4>Ultimate Party Pack</h4>
+                        <p>Perfect for any celebration! Includes an assortment of our most popular treats: chocolate-covered pretzels, popcorn, and seasonal favorites. Serves 15-20 people.</p>
+                        <div class="featured-price">$45.99</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Featured Item 2 -->
+                <div class="featured-item">
+                    <div class="featured-image">
+                        <img src="https://placehold.co/500x400?text=Gift+Box" alt="Gift Box">
+                    </div>
+                    <div class="featured-content">
+                        <h4>Deluxe Gift Box</h4>
+                        <p>The perfect gift! A beautiful box filled with our signature chocolate-covered treats. Beautifully packaged and ready to give. Perfect for holidays and special occasions.</p>
+                        <div class="featured-price">$32.99</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Featured Item 3 -->
+                <div class="featured-item">
+                    <div class="featured-image">
+                        <img src="https://placehold.co/500x400?text=Sampler" alt="Sampler Pack">
+                    </div>
+                    <div class="featured-content">
+                        <h4>Chocolate Lover's Sampler</h4>
+                        <p>Can't decide? Try them all! This sampler includes both milk and white chocolate varieties of our pretzels and popcorn. The perfect way to discover your favorite.</p>
+                        <div class="featured-price">$28.99</div>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dot Navigation -->
+            <div class="featured-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </section>
+
+        <section class="promo-banner">
+            <div class="promo-content">
+                <h3>Grand Opening Special!</h3>
+                <p>Free shipping on all orders over $30 • Limited time only</p>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class="contact-info">
+            <h4>Contact Us</h4>
+            <p>Email: </p>
+            <p>Phone: </p>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Josh Z's Homemade Treats. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
