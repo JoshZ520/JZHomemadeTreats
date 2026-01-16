@@ -1,0 +1,14 @@
+{
+  "name": "jz-homemade-treats",
+  "version": "1.0.0",
+  "description": "JZ Homemade Treats - Chocolate dipped treats website",
+  "scripts": {
+    "start": "node server.js"
+  },
+  
+  "author": "Josh Z",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
